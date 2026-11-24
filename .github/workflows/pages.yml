@@ -1,0 +1,44 @@
+name: Deploy Streamlit to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/pages.yml
+      - pages/index.html
+      - app.py
+      - corpus.py
+      - ir.py
+      - benchmark_results.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Prepare browser app and retrieve the Reuters research corpus
+        run: |
+          mkdir _site
+          cp pages/index.html app.py corpus.py ir.py benchmark_results.json _site/
+          curl --fail --location --retry 3 --max-time 90 \
+            https://archive.ics.uci.edu/ml/machine-learning-databases/reuters21578-mld/reuters21578.tar.gz \
+            --output _site/reuters21578.tar.gz
+          echo '3bae43c9b14e387f76a61b6d82bf98a4fb5d3ef99ef7e7075ff2ccbcf59f9d30  _site/reuters21578.tar.gz' | sha256sum --check
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deploy

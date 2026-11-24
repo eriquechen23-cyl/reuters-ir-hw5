@@ -1,6 +1,7 @@
 from dataclasses import asdict
 from json import loads
 from pathlib import Path
+import sys
 from tempfile import TemporaryDirectory
 from time import perf_counter
 
@@ -146,6 +147,8 @@ elif page == "詞彙與 Postings":
 else:
     st.subheader("索引建置實測")
     st.caption("這次啟動的計時從分塊到寫出合併後的索引。設定相同時會沿用此次建置。")
+    if sys.platform == "emscripten":
+        st.caption("此頁即時計時在瀏覽器執行，區塊寫入瀏覽器的虛擬檔案系統。下方另列報告使用的 Windows 實測。")
     st.dataframe([
         {"演算法": mode, "建置秒數": round(row["seconds"], 3), "區塊": row["blocks"],
          "中間檔數": row["intermediate_files"], "中間檔寫入量（位元組）": row["intermediate_bytes"],

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reuters 新聞檢索實驗室</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.3/build/stlite.css">
+  <style>
+    body { margin: 0; }
+    #loading { max-width: 42rem; margin: 12vh auto; padding: 1.5rem; color: #16312d;
+      font-family: system-ui, sans-serif; }
+    #loading a { color: #075e55; }
+  </style>
+</head>
+<body>
+  <main id="loading" aria-live="polite">
+    <h1>Reuters 新聞檢索實驗室</h1>
+    <p id="status">正在啟動 Streamlit。首次開啟會下載執行環境和 Reuters-21578 語料，接著建立兩套索引。</p>
+    <p><a href="https://github.com/eriquechen23-cyl/reuters-ir-hw5">原始碼與本機執行方式</a></p>
+  </main>
+  <div id="app"></div>
+  <script type="module">
+    const loading = document.getElementById("loading");
+    const app = document.getElementById("app");
+    const files = ["app.py", "corpus.py", "ir.py", "benchmark_results.json", "reuters21578.tar.gz"];
+    try {
+      const { mount } = await import("https://cdn.jsdelivr.net/npm/@stlite/browser@1.12.3/build/stlite.js");
+      mount({
+        entrypoint: "app.py",
+        files: Object.fromEntries(files.map(name => [name, {url: new URL(name, document.baseURI).href}])),
+        streamlitConfig: {
+          "browser.gatherUsageStats": false,
+          "client.toolbarMode": "viewer",
+          "theme.base": "light",
+          "theme.primaryColor": "#075E55",
+          "theme.backgroundColor": "#FFFFFF",
+          "theme.secondaryBackgroundColor": "#F1F6F4",
+          "theme.textColor": "#16312D"
+        }
+      }, app);
+      loading.hidden = true;
+    } catch (error) {
+      document.getElementById("status").textContent = "Streamlit 執行環境載入失敗。請重新整理頁面，或用原始碼在本機執行。";
+      console.error(error);
+    }
+  </script>
+</body>
+</html>
