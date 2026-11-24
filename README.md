@@ -2,6 +2,12 @@
 
 Streamlit 示範包含文章推薦、單詞／AND／OR 查詢、TF-IDF 關鍵字排序、詞彙表、postings 與索引效能。推薦預設展示 NEWID 3，展開結果可檢閱正文、雙方詞頻、文件頻率與各詞的分數貢獻。
 
+## GitHub Pages
+
+[開啟公開展示](https://eriquechen23-cyl.github.io/reuters-ir-hw5/)。網站透過 Stlite 在瀏覽器內執行原本的 Streamlit 程式。首次開啟需下載執行環境與語料並建立索引，建議使用桌面瀏覽器。即時計時使用瀏覽器的虛擬檔案系統，報告採用另列的 Windows 實測。
+
+程式庫的 Pages 發布來源是 GitHub Actions。`.github/workflows/pages.yml` 會下載並驗證原始語料，打包公開展示所需的檔案。
+
 ## 本機執行
 
 使用 Python 3.13。
