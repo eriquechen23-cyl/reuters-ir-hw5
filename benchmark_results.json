@@ -1,0 +1,2569 @@
+{
+  "python": "3.13.13",
+  "platform": "Windows",
+  "capacity": 50000,
+  "repeats": 3,
+  "runs": [
+    {
+      "documents": 10000,
+      "methods": {
+        "BSBI": {
+          "blocks": 11,
+          "intermediate_files": 11,
+          "intermediate_bytes": 7821834,
+          "final_bytes": 7821834,
+          "merge_passes": 1,
+          "trace": {
+            "排序前 (termID, docID, TF)": [
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                1,
+                1,
+                7
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                4,
+                1,
+                1
+              ],
+              [
+                5,
+                1,
+                1
+              ],
+              [
+                6,
+                1,
+                2
+              ],
+              [
+                7,
+                1,
+                1
+              ]
+            ],
+            "termID 對應詞（樣本）": {
+              "0": "bahia",
+              "1": "cocoa",
+              "2": "review",
+              "3": "showers",
+              "4": "continued",
+              "5": "throughout",
+              "6": "week",
+              "7": "zone"
+            },
+            "排序後 (termID, docID, TF)": [
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                1,
+                1,
+                7
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                4,
+                1,
+                1
+              ],
+              [
+                5,
+                1,
+                1
+              ],
+              [
+                6,
+                1,
+                2
+              ],
+              [
+                7,
+                1,
+                1
+              ]
+            ]
+          },
+          "seconds": [
+            1.3326902000117116,
+            1.2830164000042714,
+            1.3064766000024974
+          ],
+          "median_s": 1.3064766000024974,
+          "peak_bytes": 6641473,
+          "sha256": "412544b788248fcd31dff598ebeed93ac8af7cc8a0441448d7f2022bb559e0d8"
+        },
+        "SPIMI": {
+          "blocks": 11,
+          "intermediate_files": 11,
+          "intermediate_bytes": 7821834,
+          "final_bytes": 7821834,
+          "merge_passes": 1,
+          "trace": {
+            "直接追加至 postings（第一塊樣本）": {
+              "bahia": [
+                [
+                  1,
+                  5
+                ]
+              ],
+              "cocoa": [
+                [
+                  1,
+                  7
+                ],
+                [
+                  275,
+                  7
+                ]
+              ],
+              "review": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  180,
+                  2
+                ],
+                [
+                  205,
+                  1
+                ],
+                [
+                  236,
+                  1
+                ]
+              ],
+              "showers": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "continued": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  23,
+                  1
+                ],
+                [
+                  28,
+                  1
+                ],
+                [
+                  178,
+                  1
+                ]
+              ]
+            }
+          },
+          "seconds": [
+            1.1466697999858297,
+            1.0952327999984846,
+            1.1770528000197373
+          ],
+          "median_s": 1.1466697999858297,
+          "peak_bytes": 4333773,
+          "sha256": "412544b788248fcd31dff598ebeed93ac8af7cc8a0441448d7f2022bb559e0d8"
+        }
+      }
+    },
+    {
+      "documents": 21578,
+      "methods": {
+        "BSBI": {
+          "blocks": 23,
+          "intermediate_files": 23,
+          "intermediate_bytes": 17010979,
+          "final_bytes": 17010979,
+          "merge_passes": 1,
+          "trace": {
+            "排序前 (termID, docID, TF)": [
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                1,
+                1,
+                7
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                4,
+                1,
+                1
+              ],
+              [
+                5,
+                1,
+                1
+              ],
+              [
+                6,
+                1,
+                2
+              ],
+              [
+                7,
+                1,
+                1
+              ]
+            ],
+            "termID 對應詞（樣本）": {
+              "0": "bahia",
+              "1": "cocoa",
+              "2": "review",
+              "3": "showers",
+              "4": "continued",
+              "5": "throughout",
+              "6": "week",
+              "7": "zone"
+            },
+            "排序後 (termID, docID, TF)": [
+              [
+                0,
+                1,
+                5
+              ],
+              [
+                1,
+                1,
+                7
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                4,
+                1,
+                1
+              ],
+              [
+                5,
+                1,
+                1
+              ],
+              [
+                6,
+                1,
+                2
+              ],
+              [
+                7,
+                1,
+                1
+              ]
+            ]
+          },
+          "seconds": [
+            3.231705599988345,
+            3.1045214000041597,
+            3.170465800038073
+          ],
+          "median_s": 3.170465800038073,
+          "peak_bytes": 8203865,
+          "sha256": "b06a6203a7ecab980ff21cd6a54b8b0c9f0b18a9e0e773d7681f13922aacc70f"
+        },
+        "SPIMI": {
+          "blocks": 23,
+          "intermediate_files": 23,
+          "intermediate_bytes": 17010979,
+          "final_bytes": 17010979,
+          "merge_passes": 1,
+          "trace": {
+            "直接追加至 postings（第一塊樣本）": {
+              "bahia": [
+                [
+                  1,
+                  5
+                ]
+              ],
+              "cocoa": [
+                [
+                  1,
+                  7
+                ],
+                [
+                  275,
+                  7
+                ]
+              ],
+              "review": [
+                [
+                  1,
+                  2
+                ],
+                [
+                  180,
+                  2
+                ],
+                [
+                  205,
+                  1
+                ],
+                [
+                  236,
+                  1
+                ]
+              ],
+              "showers": [
+                [
+                  1,
+                  1
+                ]
+              ],
+              "continued": [
+                [
+                  1,
+                  1
+                ],
+                [
+                  23,
+                  1
+                ],
+                [
+                  28,
+                  1
+                ],
+                [
+                  178,
+                  1
+                ]
+              ]
+            }
+          },
+          "seconds": [
+            2.994702900003176,
+            2.604747000033967,
+            2.7340739000355825
+          ],
+          "median_s": 2.7340739000355825,
+          "peak_bytes": 4364806,
+          "sha256": "b06a6203a7ecab980ff21cd6a54b8b0c9f0b18a9e0e773d7681f13922aacc70f"
+        }
+      }
+    }
+  ],
+  "vocabulary": 50194,
+  "queries": {
+    "crude oil": {
+      "單詞": 432,
+      "AND": 379,
+      "OR": 1528
+    },
+    "interest rates": {
+      "單詞": 1863,
+      "AND": 583,
+      "OR": 2394
+    },
+    "wheat exports": {
+      "單詞": 469,
+      "AND": 71,
+      "OR": 1253
+    },
+    "financial market": {
+      "單詞": 1577,
+      "AND": 453,
+      "OR": 4062
+    },
+    "computer science": {
+      "單詞": 453,
+      "AND": 3,
+      "OR": 481
+    }
+  },
+  "related_verified": [
+    144,
+    1,
+    2,
+    3,
+    5,
+    10000,
+    21578
+  ],
+  "examples": {
+    "144": {
+      "article": {
+        "id": 144,
+        "title": "OPEC MAY HAVE TO MEET TO FIRM PRICES - ANALYSTS",
+        "body": "OPEC may be forced to meet before a scheduled June session to readdress its production cutting agreement if the organization wants to halt the current slide in oil prices, oil industry analysts said. \"The movement to higher oil prices was never to be as easy as OPEC thought. They may need an emergency meeting to sort out the problems,\" said Daniel Yergin, director of Cambridge Energy Research Associates, CERA. Analysts and oil industry sources said the problem OPEC faces is excess oil supply in world oil markets. \"OPEC's problem is not a price problem but a production issue and must be addressed in that way,\" said Paul Mlotok, oil analyst with Salomon Brothers Inc. He said the market's earlier optimism about OPEC and its ability to keep production under control have given way to a pessimistic outlook that the organization must address soon if it wishes to regain the initiative in oil prices. But some other analysts were uncertain that even an emergency meeting would address the problem of OPEC production above the 15.8 mln bpd quota set last December. \"OPEC has to learn that in a buyers market you cannot have deemed quotas, fixed prices and set differentials,\" said the regional manager for one of the major oil companies who spoke on condition that he not be named. \"The market is now trying to teach them that lesson again,\" he added. David T. Mizrahi, editor of Mideast reports, expects OPEC to meet before June, although not immediately. However, he is not optimistic that OPEC can address its principal problems. \"They will not meet now as they try to take advantage of the winter demand to sell their oil, but in late March and April when demand slackens,\" Mizrahi said. But Mizrahi said that OPEC is unlikely to do anything more than reiterate its agreement to keep output at 15.8 mln bpd.\" Analysts said that the next two months will be critical for OPEC's ability to hold together prices and output. \"OPEC must hold to its pact for the next six to eight weeks since buyers will come back into the market then,\" said Dillard Spriggs of Petroleum Analysis Ltd in New York. But Bijan Moussavar-Rahmani of Harvard University's Energy and Environment Policy Center said that the demand for OPEC oil has been rising through the first quarter and this may have prompted excesses in its production. \"Demand for their (OPEC) oil is clearly above 15.8 mln bpd and is probably closer to 17 mln bpd or higher now so what we are seeing characterized as cheating is OPEC meeting this demand through current production,\" he told Reuters in a telephone interview. Reuter"
+      },
+      "hits": [
+        {
+          "title": "OPEC PRESIDENT LUKMAN EXPECTS SHORT, CALM MEETING",
+          "doc": 19128,
+          "score": 0.24196637215945607,
+          "terms": [
+            {
+              "term": "opec",
+              "query_tf": 14,
+              "document_tf": 5,
+              "df": 141,
+              "idf": 6.0236488409342055,
+              "score": 0.0486229025665561
+            },
+            {
+              "term": "bpd",
+              "query_tf": 4,
+              "document_tf": 2,
+              "df": 131,
+              "idf": 6.096673975949095,
+              "score": 0.021192900195619712
+            },
+            {
+              "term": "opec's",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 44,
+              "idf": 7.172813408765146,
+              "score": 0.020813935939553642
+            },
+            {
+              "term": "oil",
+              "query_tf": 12,
+              "document_tf": 3,
+              "df": 1475,
+              "idf": 3.682384893375048,
+              "score": 0.01399482410896238
+            },
+            {
+              "term": "keep",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 304,
+              "idf": 5.2591641219280545,
+              "score": 0.01118944625859363
+            },
+            {
+              "term": "meeting",
+              "query_tf": 3,
+              "document_tf": 3,
+              "df": 1367,
+              "idf": 3.7583708003529703,
+              "score": 0.008779087894127227
+            },
+            {
+              "term": "prices",
+              "query_tf": 6,
+              "document_tf": 2,
+              "df": 1735,
+              "idf": 3.5201370033151704,
+              "score": 0.008265660549676236
+            },
+            {
+              "term": "analysts",
+              "query_tf": 5,
+              "document_tf": 1,
+              "df": 720,
+              "idf": 4.398836761250516,
+              "score": 0.007125385782045481
+            },
+            {
+              "term": "agreement",
+              "query_tf": 2,
+              "document_tf": 4,
+              "df": 1853,
+              "idf": 3.4543751524096655,
+              "score": 0.0068036733124840765
+            },
+            {
+              "term": "current",
+              "query_tf": 2,
+              "document_tf": 3,
+              "df": 1571,
+              "idf": 3.619371925546314,
+              "score": 0.006568694642348443
+            },
+            {
+              "term": "fixed",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 329,
+              "idf": 5.18038324407494,
+              "score": 0.006412157998151356
+            },
+            {
+              "term": "production",
+              "query_tf": 6,
+              "document_tf": 1,
+              "df": 1151,
+              "idf": 3.9302210572796294,
+              "score": 0.006085519767974667
+            },
+            {
+              "term": "market",
+              "query_tf": 3,
+              "document_tf": 3,
+              "df": 2938,
+              "idf": 2.9936512321165485,
+              "score": 0.005569966095047174
+            },
+            {
+              "term": "above",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 489,
+              "idf": 4.7850705074307935,
+              "score": 0.00547087910536607
+            },
+            {
+              "term": "need",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 489,
+              "idf": 4.7850705074307935,
+              "score": 0.00547087910536607
+            },
+            {
+              "term": "output",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 491,
+              "idf": 4.780997182043158,
+              "score": 0.005461568820083733
+            },
+            {
+              "term": "december",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 867,
+              "idf": 4.213284183875116,
+              "score": 0.005257259821150678
+            },
+            {
+              "term": "winter",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 133,
+              "idf": 6.081636098584554,
+              "score": 0.005219472136159818
+            },
+            {
+              "term": "session",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 233,
+              "idf": 5.524154783177765,
+              "score": 0.004306430083997104
+            },
+            {
+              "term": "expects",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 876,
+              "idf": 4.202968906163283,
+              "score": 0.0042207807115304235
+            },
+            {
+              "term": "now",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 1518,
+              "idf": 3.653668395939693,
+              "score": 0.003953449467208813
+            },
+            {
+              "term": "industry",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1130,
+              "idf": 3.9486184224193455,
+              "score": 0.0037253816397481037
+            },
+            {
+              "term": "june",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1204,
+              "idf": 3.8852410526107106,
+              "score": 0.003606752761517652
+            },
+            {
+              "term": "next",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1421,
+              "idf": 3.71965628817228,
+              "score": 0.003305872176070502
+            },
+            {
+              "term": "weeks",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 570,
+              "idf": 4.632086688879456,
+              "score": 0.00302788293556459
+            },
+            {
+              "term": "price",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1890,
+              "idf": 3.4346148298770083,
+              "score": 0.0028186199180374716
+            },
+            {
+              "term": "mln",
+              "query_tf": 4,
+              "document_tf": 3,
+              "df": 8607,
+              "idf": 1.9190286161339003,
+              "score": 0.002602584575999031
+            },
+            {
+              "term": "take",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1073,
+              "idf": 4.000330623466656,
+              "score": 0.0022582784849617273
+            },
+            {
+              "term": "quarter",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1270,
+              "idf": 3.8319166273460117,
+              "score": 0.0020721339487586527
+            },
+            {
+              "term": "since",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1369,
+              "idf": 3.7569098797132954,
+              "score": 0.0019918071088503536
+            },
+            {
+              "term": "last",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 3753,
+              "idf": 2.7488986813890115,
+              "score": 0.0018055016969966882
+            },
+            {
+              "term": "told",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2398,
+              "idf": 3.1966686356957714,
+              "score": 0.0014420521394479097
+            },
+            {
+              "term": "first",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2572,
+              "idf": 3.126648086253722,
+              "score": 0.0013795699595619544
+            },
+            {
+              "term": "two",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 3397,
+              "idf": 2.8485335963035885,
+              "score": 0.0011450604519386213
+            }
+          ]
+        },
+        {
+          "title": "OIL PRICES SEEN HOLDING STEADY IN SECOND QUARTER",
+          "doc": 13281,
+          "score": 0.2396103197415397,
+          "terms": [
+            {
+              "term": "opec",
+              "query_tf": 14,
+              "document_tf": 6,
+              "df": 141,
+              "idf": 6.0236488409342055,
+              "score": 0.04441418642529516
+            },
+            {
+              "term": "bpd",
+              "query_tf": 4,
+              "document_tf": 5,
+              "df": 131,
+              "idf": 6.096673975949095,
+              "score": 0.02788639981121663
+            },
+            {
+              "term": "opec's",
+              "query_tf": 2,
+              "document_tf": 3,
+              "df": 44,
+              "idf": 7.172813408765146,
+              "score": 0.022026298168547034
+            },
+            {
+              "term": "oil",
+              "query_tf": 12,
+              "document_tf": 7,
+              "df": 1475,
+              "idf": 3.682384893375048,
+              "score": 0.016772759896538862
+            },
+            {
+              "term": "prices",
+              "query_tf": 6,
+              "document_tf": 11,
+              "df": 1735,
+              "idf": 3.5201370033151704,
+              "score": 0.014162588735542022
+            },
+            {
+              "term": "buyers",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 171,
+              "idf": 5.831981421722013,
+              "score": 0.011747818034655204
+            },
+            {
+              "term": "production",
+              "query_tf": 6,
+              "document_tf": 3,
+              "df": 1151,
+              "idf": 3.9302210572796294,
+              "score": 0.010903845510608526
+            },
+            {
+              "term": "output",
+              "query_tf": 2,
+              "document_tf": 3,
+              "df": 491,
+              "idf": 4.780997182043158,
+              "score": 0.009785869560911669
+            },
+            {
+              "term": "cheating",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 10,
+              "idf": 8.581580625737097,
+              "score": 0.008872992165847741
+            },
+            {
+              "term": "organization",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 210,
+              "idf": 5.6276177650594,
+              "score": 0.006460697682544687
+            },
+            {
+              "term": "seeing",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 39,
+              "idf": 7.29059644442153,
+              "score": 0.00640415217005539
+            },
+            {
+              "term": "market",
+              "query_tf": 3,
+              "document_tf": 4,
+              "df": 2938,
+              "idf": 2.9936512321165485,
+              "score": 0.005407470458402864
+            },
+            {
+              "term": "faces",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 100,
+              "idf": 6.364355381694207,
+              "score": 0.0048802758283909555
+            },
+            {
+              "term": "energy",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 567,
+              "idf": 4.637354479814315,
+              "score": 0.004387032228970086
+            },
+            {
+              "term": "quota",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 168,
+              "idf": 5.849577183612393,
+              "score": 0.00412272602984091
+            },
+            {
+              "term": "forced",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 192,
+              "idf": 5.716785709630581,
+              "score": 0.003937670303018952
+            },
+            {
+              "term": "meeting",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 1367,
+              "idf": 3.7583708003529703,
+              "score": 0.003571634308233375
+            },
+            {
+              "term": "june",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1204,
+              "idf": 3.8852410526107106,
+              "score": 0.003079400482731645
+            },
+            {
+              "term": "quarter",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1270,
+              "idf": 3.8319166273460117,
+              "score": 0.0029954518179748026
+            },
+            {
+              "term": "mln",
+              "query_tf": 4,
+              "document_tf": 6,
+              "df": 8607,
+              "idf": 1.9190286161339003,
+              "score": 0.002955972833830157
+            },
+            {
+              "term": "next",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1421,
+              "idf": 3.71965628817228,
+              "score": 0.002822512394932506
+            },
+            {
+              "term": "petroleum",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 486,
+              "idf": 4.791211775452876,
+              "score": 0.0027658349404910774
+            },
+            {
+              "term": "scheduled",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 487,
+              "idf": 4.789160492682319,
+              "score": 0.0027634671490791942
+            },
+            {
+              "term": "current",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1571,
+              "idf": 3.619371925546314,
+              "score": 0.0026723704589647276
+            },
+            {
+              "term": "back",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 626,
+              "idf": 4.538529357902545,
+              "score": 0.0024817945238612
+            },
+            {
+              "term": "sources",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1027,
+              "idf": 4.0441054525203555,
+              "score": 0.0019705182749035744
+            },
+            {
+              "term": "however",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1042,
+              "idf": 4.029619443534694,
+              "score": 0.001956426742577404
+            },
+            {
+              "term": "take",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1073,
+              "idf": 4.000330623466656,
+              "score": 0.0019280899791444153
+            },
+            {
+              "term": "companies",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1167,
+              "idf": 3.9164277351472934,
+              "score": 0.0018480586877888242
+            },
+            {
+              "term": "price",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1890,
+              "idf": 3.4346148298770083,
+              "score": 0.0014213191430070568
+            },
+            {
+              "term": "march",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2411,
+              "idf": 3.19126434068839,
+              "score": 0.0012270466741789543
+            },
+            {
+              "term": "two",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 3397,
+              "idf": 2.8485335963035885,
+              "score": 0.000977638319454143
+            }
+          ]
+        },
+        {
+          "title": "INTERNATIONAL SPOT OIL PRICES FIRM ON OPEC ACCORD",
+          "doc": 19588,
+          "score": 0.2310655298084787,
+          "terms": [
+            {
+              "term": "opec",
+              "query_tf": 14,
+              "document_tf": 9,
+              "df": 141,
+              "idf": 6.0236488409342055,
+              "score": 0.04306736855645925
+            },
+            {
+              "term": "bpd",
+              "query_tf": 4,
+              "document_tf": 5,
+              "df": 131,
+              "idf": 6.096673975949095,
+              "score": 0.02361151916452472
+            },
+            {
+              "term": "oil",
+              "query_tf": 12,
+              "document_tf": 10,
+              "df": 1475,
+              "idf": 3.682384893375048,
+              "score": 0.01592100689997893
+            },
+            {
+              "term": "demand",
+              "query_tf": 5,
+              "document_tf": 3,
+              "df": 756,
+              "idf": 4.350112645098017,
+              "score": 0.010571757446196397
+            },
+            {
+              "term": "prices",
+              "query_tf": 6,
+              "document_tf": 7,
+              "df": 1735,
+              "idf": 3.5201370033151704,
+              "score": 0.010396415598333502
+            },
+            {
+              "term": "output",
+              "query_tf": 2,
+              "document_tf": 4,
+              "df": 491,
+              "idf": 4.780997182043158,
+              "score": 0.009421557584266257
+            },
+            {
+              "term": "opec's",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 44,
+              "idf": 7.172813408765146,
+              "score": 0.0088867053987244
+            },
+            {
+              "term": "production",
+              "query_tf": 6,
+              "document_tf": 2,
+              "df": 1151,
+              "idf": 3.9302210572796294,
+              "score": 0.00744858315705719
+            },
+            {
+              "term": "above",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 489,
+              "idf": 4.7850705074307935,
+              "score": 0.006696272383005997
+            },
+            {
+              "term": "now",
+              "query_tf": 3,
+              "document_tf": 3,
+              "df": 1518,
+              "idf": 3.653668395939693,
+              "score": 0.005997768307217565
+            },
+            {
+              "term": "quota",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 168,
+              "idf": 5.849577183612393,
+              "score": 0.005910315544135846
+            },
+            {
+              "term": "meeting",
+              "query_tf": 3,
+              "document_tf": 2,
+              "df": 1367,
+              "idf": 3.7583708003529703,
+              "score": 0.005120273725958739
+            },
+            {
+              "term": "optimism",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 67,
+              "idf": 6.759968193359359,
+              "score": 0.004661828683922819
+            },
+            {
+              "term": "higher",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 1106,
+              "idf": 3.970066965826829,
+              "score": 0.004609481676501033
+            },
+            {
+              "term": "analyst",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 346,
+              "idf": 5.130151118588607,
+              "score": 0.004545922557729214
+            },
+            {
+              "term": "agreement",
+              "query_tf": 2,
+              "document_tf": 3,
+              "df": 1853,
+              "idf": 3.4543751524096655,
+              "score": 0.004325466274606967
+            },
+            {
+              "term": "next",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 1421,
+              "idf": 3.71965628817228,
+              "score": 0.004046337001425587
+            },
+            {
+              "term": "anything",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 129,
+              "idf": 6.111941448079883,
+              "score": 0.0038108808884824356
+            },
+            {
+              "term": "winter",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 133,
+              "idf": 6.081636098584554,
+              "score": 0.0037731829634797807
+            },
+            {
+              "term": "cutting",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 167,
+              "idf": 5.855511919132207,
+              "score": 0.0034978142550214134
+            },
+            {
+              "term": "outlook",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 212,
+              "idf": 5.618183732826041,
+              "score": 0.003220022308645704
+            },
+            {
+              "term": "quarter",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 1270,
+              "idf": 3.8319166273460117,
+              "score": 0.0031436292354961332
+            },
+            {
+              "term": "again",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 327,
+              "idf": 5.186462290151322,
+              "score": 0.00274416015298454
+            },
+            {
+              "term": "fixed",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 329,
+              "idf": 5.18038324407494,
+              "score": 0.0027377310694686185
+            },
+            {
+              "term": "set",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1251,
+              "idf": 3.846978346875422,
+              "score": 0.0025562374909053388
+            },
+            {
+              "term": "months",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1464,
+              "idf": 3.689865377084298,
+              "score": 0.00235170454924201
+            },
+            {
+              "term": "even",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 488,
+              "idf": 4.787113409060594,
+              "score": 0.0023378381273365624
+            },
+            {
+              "term": "weeks",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 570,
+              "idf": 4.632086688879456,
+              "score": 0.0021888719797418296
+            },
+            {
+              "term": "mln",
+              "query_tf": 4,
+              "document_tf": 4,
+              "df": 8607,
+              "idf": 1.9190286161339003,
+              "score": 0.00213933076391726
+            },
+            {
+              "term": "back",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 626,
+              "idf": 4.538529357902545,
+              "score": 0.0021013447185459634
+            },
+            {
+              "term": "price",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1890,
+              "idf": 3.4346148298770083,
+              "score": 0.002037594679658257
+            },
+            {
+              "term": "market",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 2938,
+              "idf": 2.9936512321165485,
+              "score": 0.0019186759037800546
+            },
+            {
+              "term": "new",
+              "query_tf": 1,
+              "document_tf": 5,
+              "df": 4060,
+              "idf": 2.670291370849168,
+              "score": 0.0018981532691781835
+            },
+            {
+              "term": "firm",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 859,
+              "idf": 4.222543509287913,
+              "score": 0.0018189270065016867
+            },
+            {
+              "term": "december",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 867,
+              "idf": 4.213284183875116,
+              "score": 0.0018109585528217505
+            },
+            {
+              "term": "york",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 915,
+              "idf": 4.159459533861336,
+              "score": 0.0017649841584105
+            },
+            {
+              "term": "last",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 3753,
+              "idf": 2.7488986813890115,
+              "score": 0.0016177696446588266
+            },
+            {
+              "term": "markets",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1202,
+              "idf": 3.886902182560787,
+              "score": 0.0015412540377978598
+            },
+            {
+              "term": "added",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1798,
+              "idf": 3.484489664584933,
+              "score": 0.0012386407565603758
+            },
+            {
+              "term": "told",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2398,
+              "idf": 3.1966686356957714,
+              "score": 0.0010424668286509303
+            },
+            {
+              "term": "other",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2560,
+              "idf": 3.1313228123359407,
+              "score": 0.0010002825407138779
+            },
+            {
+              "term": "first",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2572,
+              "idf": 3.126648086253722,
+              "score": 0.000997298142907122
+            },
+            {
+              "term": "inc",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 5911,
+              "idf": 2.2947364359074283,
+              "score": 0.0005371958235272497
+            }
+          ]
+        }
+      ]
+    },
+    "1": {
+      "article": {
+        "id": 1,
+        "title": "BAHIA COCOA REVIEW",
+        "body": "Showers continued throughout the week in the Bahia cocoa zone, alleviating the drought since early January and improving prospects for the coming temporao, although normal humidity levels have not been restored, Comissaria Smith said in its weekly review. The dry period means the temporao will be late this year. Arrivals for the week ended February 22 were 155,221 bags of 60 kilos making a cumulative total for the season of 5.93 mln against 5.81 at the same stage last year. Again it seems that cocoa delivered earlier on consignment was included in the arrivals figures. Comissaria Smith said there is still some doubt as to how much old crop cocoa is still available as harvesting has practically come to an end. With total Bahia crop estimates around 6.4 mln bags and sales standing at almost 6.2 mln there are a few hundred thousand bags still in the hands of farmers, middlemen, exporters and processors. There are doubts as to how much of this cocoa would be fit for export as shippers are now experiencing dificulties in obtaining +Bahia superior+ certificates. In view of the lower quality over recent weeks farmers have sold a good part of their cocoa held on consignment. Comissaria Smith said spot bean prices rose to 340 to 350 cruzados per arroba of 15 kilos. Bean shippers were reluctant to offer nearby shipment and only limited sales were booked for March shipment at 1,750 to 1,780 dlrs per tonne to ports to be named. New crop sales were also light and all to open ports with June/July going at 1,850 and 1,880 dlrs and at 35 and 45 dlrs under New York july, Aug/Sept at 1,870, 1,875 and 1,880 dlrs per tonne FOB. Routine sales of butter were made. March/April sold at 4,340, 4,345 and 4,350 dlrs. April/May butter went at 2.27 times New York May, June/July at 4,400 and 4,415 dlrs, Aug/Sept at 4,351 to 4,450 dlrs and at 2.27 and 2.28 times New York Sept and Oct/Dec at 4,480 dlrs and 2.27 times New York Dec, Comissaria Smith said. Destinations were the U.S., Covertible currency areas, Uruguay and open ports. Cake sales were registered at 785 to 995 dlrs for March/April, 785 dlrs for May, 753 dlrs for Aug and 0.39 times New York Dec for Oct/Dec. Buyers were the U.S., Argentina, Uruguay and convertible currency areas. Liquor sales were limited with March/April selling at 2,325 and 2,380 dlrs, June/July at 2,375 dlrs and at 1.25 times New York July, Aug/Sept at 2,400 dlrs and at 1.25 times New York Sept and Oct/Dec at 1.25 times New York Dec, Comissaria Smith said. Total Bahia sales are currently estimated at 6.13 mln bags against the 1986/87 crop and 1.06 mln bags against the 1987/88 crop. Final figures for the period to February 28 are expected to be published by the Brazilian Cocoa Trade Commission after carnival which ends midday on February 27. Reuter"
+      },
+      "hits": [
+        {
+          "title": "PESSIMISM MOUNTS OVER BAHIAN TEMPORAO COCOA CROP",
+          "doc": 4470,
+          "score": 0.2243612533068749,
+          "terms": [
+            {
+              "term": "temporao",
+              "query_tf": 2,
+              "document_tf": 12,
+              "df": 7,
+              "idf": 8.900034356855631,
+              "score": 0.034648361199053734
+            },
+            {
+              "term": "bags",
+              "query_tf": 5,
+              "document_tf": 8,
+              "df": 72,
+              "idf": 6.6890164573870745,
+              "score": 0.02665366481571815
+            },
+            {
+              "term": "arrivals",
+              "query_tf": 2,
+              "document_tf": 5,
+              "df": 8,
+              "idf": 8.782251321199247,
+              "score": 0.02526195009652914
+            },
+            {
+              "term": "cocoa",
+              "query_tf": 7,
+              "document_tf": 3,
+              "df": 129,
+              "idf": 6.111941448079883,
+              "score": 0.017120780103890797
+            },
+            {
+              "term": "crop",
+              "query_tf": 5,
+              "document_tf": 8,
+              "df": 275,
+              "idf": 5.359075032818316,
+              "score": 0.01710850568070384
+            },
+            {
+              "term": "drought",
+              "query_tf": 1,
+              "document_tf": 4,
+              "df": 64,
+              "idf": 6.805088628639829,
+              "score": 0.008192285093872848
+            },
+            {
+              "term": "harvesting",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 23,
+              "idf": 7.80142206818752,
+              "score": 0.00763933810557983
+            },
+            {
+              "term": "july",
+              "query_tf": 5,
+              "document_tf": 2,
+              "df": 826,
+              "idf": 4.261671203511774,
+              "score": 0.005948603613553878
+            },
+            {
+              "term": "figures",
+              "query_tf": 2,
+              "document_tf": 3,
+              "df": 698,
+              "idf": 4.429825156301655,
+              "score": 0.005169083699793447
+            },
+            {
+              "term": "normal",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 188,
+              "idf": 5.737728883475824,
+              "score": 0.004132265613578487
+            },
+            {
+              "term": "coming",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 238,
+              "idf": 5.503012346603955,
+              "score": 0.003801098790700304
+            },
+            {
+              "term": "farmers",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 273,
+              "idf": 5.366347792147396,
+              "score": 0.003614646359261612
+            },
+            {
+              "term": "good",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 485,
+              "idf": 4.793267274634973,
+              "score": 0.003574447928268729
+            },
+            {
+              "term": "dry",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 80,
+              "idf": 6.585026743863027,
+              "score": 0.003214611967171757
+            },
+            {
+              "term": "against",
+              "query_tf": 3,
+              "document_tf": 2,
+              "df": 1795,
+              "idf": 3.486158649673321,
+              "score": 0.0032013612870325342
+            },
+            {
+              "term": "total",
+              "query_tf": 3,
+              "document_tf": 2,
+              "df": 1821,
+              "idf": 3.4717858207155623,
+              "score": 0.003175018385407682
+            },
+            {
+              "term": "delivered",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 110,
+              "idf": 6.2699456972231316,
+              "score": 0.002914345454335049
+            },
+            {
+              "term": "mln",
+              "query_tf": 5,
+              "document_tf": 16,
+              "df": 8607,
+              "idf": 1.9190286161339003,
+              "score": 0.002687588677425141
+            },
+            {
+              "term": "still",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 918,
+              "idf": 4.1561897761797795,
+              "score": 0.0026874254270443155
+            },
+            {
+              "term": "levels",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 604,
+              "idf": 4.5742474405046245,
+              "score": 0.0026263190882618143
+            },
+            {
+              "term": "late",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 638,
+              "idf": 4.519571444157931,
+              "score": 0.002563909518463603
+            },
+            {
+              "term": "registered",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 165,
+              "idf": 5.867488110178923,
+              "score": 0.002552218823203873
+            },
+            {
+              "term": "much",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 768,
+              "idf": 4.334384929029822,
+              "score": 0.002358104993360603
+            },
+            {
+              "term": "end",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 1363,
+              "idf": 3.7612990601320586,
+              "score": 0.0022010069476736957
+            },
+            {
+              "term": "estimates",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 280,
+              "idf": 5.34112122920172,
+              "score": 0.002114844020827639
+            },
+            {
+              "term": "period",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1146,
+              "idf": 3.9345707814060953,
+              "score": 0.001943134701484565
+            },
+            {
+              "term": "expected",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 1972,
+              "idf": 3.3921653925128505,
+              "score": 0.001790192447948184
+            },
+            {
+              "term": "since",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1369,
+              "idf": 3.7569098797132954,
+              "score": 0.0017716165857023186
+            },
+            {
+              "term": "year",
+              "query_tf": 2,
+              "document_tf": 5,
+              "df": 5859,
+              "idf": 2.3035710159644074,
+              "score": 0.001738034374684331
+            },
+            {
+              "term": "now",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1518,
+              "idf": 3.653668395939693,
+              "score": 0.001675584907338144
+            },
+            {
+              "term": "final",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 509,
+              "idf": 4.745065172817094,
+              "score": 0.0016691594842813467
+            },
+            {
+              "term": "april",
+              "query_tf": 4,
+              "document_tf": 1,
+              "df": 2899,
+              "idf": 3.0070098825609004,
+              "score": 0.0015995845353128178
+            },
+            {
+              "term": "weeks",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 570,
+              "idf": 4.632086688879456,
+              "score": 0.0015906214254441402
+            },
+            {
+              "term": "although",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 578,
+              "idf": 4.618173420962471,
+              "score": 0.0015810803668290503
+            },
+            {
+              "term": "week",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1720,
+              "idf": 3.5288151023239265,
+              "score": 0.001563025234264048
+            },
+            {
+              "term": "trade",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1940,
+              "idf": 3.408517315366456,
+              "score": 0.001458274198516488
+            },
+            {
+              "term": "held",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 759,
+              "idf": 4.346157465255089,
+              "score": 0.0014003106287305907
+            },
+            {
+              "term": "recent",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 921,
+              "idf": 4.152930674978872,
+              "score": 0.001278565065315073
+            },
+            {
+              "term": "early",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 924,
+              "idf": 4.1496821610230405,
+              "score": 0.001276565604053495
+            },
+            {
+              "term": "around",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 960,
+              "idf": 4.111501489565173,
+              "score": 0.0012531826535925198
+            },
+            {
+              "term": "last",
+              "query_tf": 1,
+              "document_tf": 3,
+              "df": 3753,
+              "idf": 2.7488986813890115,
+              "score": 0.001175609666551166
+            },
+            {
+              "term": "only",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1403,
+              "idf": 3.7323953139497092,
+              "score": 0.0010327346341512183
+            },
+            {
+              "term": "also",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 3769,
+              "idf": 2.7446456180934096,
+              "score": 0.0009455418103579533
+            },
+            {
+              "term": "prices",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1735,
+              "idf": 3.5201370033151704,
+              "score": 0.0009186130354443582
+            },
+            {
+              "term": "all",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2078,
+              "idf": 3.339833610677453,
+              "score": 0.0008269193085811328
+            },
+            {
+              "term": "after",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2649,
+              "idf": 3.097160979555198,
+              "score": 0.0007111169475794947
+            }
+          ]
+        },
+        {
+          "title": "TRADERS CUT BAHIA TEMPORAO COCOA CROP ESTIMATE",
+          "doc": 11459,
+          "score": 0.22328665298196745,
+          "terms": [
+            {
+              "term": "temporao",
+              "query_tf": 2,
+              "document_tf": 6,
+              "df": 7,
+              "idf": 8.900034356855631,
+              "score": 0.041670231675103774
+            },
+            {
+              "term": "bahia",
+              "query_tf": 5,
+              "document_tf": 2,
+              "df": 15,
+              "idf": 8.206887176295684,
+              "score": 0.03311833118746863
+            },
+            {
+              "term": "bags",
+              "query_tf": 5,
+              "document_tf": 2,
+              "df": 72,
+              "idf": 6.6890164573870745,
+              "score": 0.02200067713599566
+            },
+            {
+              "term": "crop",
+              "query_tf": 5,
+              "document_tf": 5,
+              "df": 275,
+              "idf": 5.359075032818316,
+              "score": 0.021764237192492302
+            },
+            {
+              "term": "cocoa",
+              "query_tf": 7,
+              "document_tf": 2,
+              "df": 129,
+              "idf": 6.111941448079883,
+              "score": 0.020736832400278165
+            },
+            {
+              "term": "bean",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 14,
+              "idf": 8.271425697433255,
+              "score": 0.012892148414169068
+            },
+            {
+              "term": "farmers",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 273,
+              "idf": 5.366347792147396,
+              "score": 0.009187913422584099
+            },
+            {
+              "term": "dry",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 80,
+              "idf": 6.585026743863027,
+              "score": 0.008171083283403218
+            },
+            {
+              "term": "drought",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 64,
+              "idf": 6.805088628639829,
+              "score": 0.0051539168853931006
+            },
+            {
+              "term": "against",
+              "query_tf": 3,
+              "document_tf": 2,
+              "df": 1795,
+              "idf": 3.486158649673321,
+              "score": 0.004806080679480561
+            },
+            {
+              "term": "good",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 485,
+              "idf": 4.793267274634973,
+              "score": 0.004329401298436472
+            },
+            {
+              "term": "weeks",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 570,
+              "idf": 4.632086688879456,
+              "score": 0.004043131884158501
+            },
+            {
+              "term": "coming",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 238,
+              "idf": 5.503012346603955,
+              "score": 0.003370317484954979
+            },
+            {
+              "term": "recent",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 921,
+              "idf": 4.152930674978872,
+              "score": 0.003249929303638761
+            },
+            {
+              "term": "estimates",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 280,
+              "idf": 5.34112122920172,
+              "score": 0.0031749340600155163
+            },
+            {
+              "term": "mln",
+              "query_tf": 5,
+              "document_tf": 6,
+              "df": 8607,
+              "idf": 1.9190286161339003,
+              "score": 0.002985779326550474
+            },
+            {
+              "term": "period",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 1146,
+              "idf": 3.9345707814060953,
+              "score": 0.0029171534572687203
+            },
+            {
+              "term": "april",
+              "query_tf": 4,
+              "document_tf": 1,
+              "df": 2899,
+              "idf": 3.0070098825609004,
+              "score": 0.002401394794615288
+            },
+            {
+              "term": "although",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 578,
+              "idf": 4.618173420962471,
+              "score": 0.0023736151975420304
+            },
+            {
+              "term": "late",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 638,
+              "idf": 4.519571444157931,
+              "score": 0.0022733397777142095
+            },
+            {
+              "term": "early",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 924,
+              "idf": 4.1496821610230405,
+              "score": 0.0019164588859690874
+            },
+            {
+              "term": "lower",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1044,
+              "idf": 4.027703734136555,
+              "score": 0.001805447542128244
+            },
+            {
+              "term": "earlier",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1448,
+              "idf": 3.7008469562147837,
+              "score": 0.0015243057596240287
+            },
+            {
+              "term": "now",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1518,
+              "idf": 3.653668395939693,
+              "score": 0.0014856896444114729
+            },
+            {
+              "term": "last",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 3753,
+              "idf": 2.7488986813890115,
+              "score": 0.0014239082842888854
+            },
+            {
+              "term": "prices",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1735,
+              "idf": 3.5201370033151704,
+              "score": 0.0013790784499866586
+            },
+            {
+              "term": "trade",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1940,
+              "idf": 3.408517315366456,
+              "score": 0.0012930069171428532
+            },
+            {
+              "term": "year",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 5859,
+              "idf": 2.3035710159644074,
+              "score": 0.0009999257716501863
+            },
+            {
+              "term": "also",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 3769,
+              "idf": 2.7446456180934096,
+              "score": 0.0008383828655024963
+            }
+          ]
+        },
+        {
+          "title": "",
+          "doc": 14468,
+          "score": 0.21856324382469844,
+          "terms": [
+            {
+              "term": "cocoa",
+              "query_tf": 7,
+              "document_tf": 11,
+              "df": 129,
+              "idf": 6.111941448079883,
+              "score": 0.060792861924550426
+            },
+            {
+              "term": "butter",
+              "query_tf": 2,
+              "document_tf": 3,
+              "df": 27,
+              "idf": 7.647271388360262,
+              "score": 0.033783501640130394
+            },
+            {
+              "term": "bahia",
+              "query_tf": 5,
+              "document_tf": 1,
+              "df": 15,
+              "idf": 8.206887176295684,
+              "score": 0.02857384120970587
+            },
+            {
+              "term": "liquor",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 12,
+              "idf": 8.41452654107393,
+              "score": 0.019490313014087317
+            },
+            {
+              "term": "superior",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 38,
+              "idf": 7.315914252405819,
+              "score": 0.014733185533337082
+            },
+            {
+              "term": "crop",
+              "query_tf": 5,
+              "document_tf": 1,
+              "df": 275,
+              "idf": 5.359075032818316,
+              "score": 0.012184041686995111
+            },
+            {
+              "term": "cake",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 15,
+              "idf": 8.206887176295684,
+              "score": 0.010950190105520468
+            },
+            {
+              "term": "tonne",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 313,
+              "idf": 5.230082912627212,
+              "score": 0.007529681258271939
+            },
+            {
+              "term": "quality",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 180,
+              "idf": 5.78097886726964,
+              "score": 0.00543334768110286
+            },
+            {
+              "term": "spot",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 184,
+              "idf": 5.759120073457141,
+              "score": 0.005392336671691009
+            },
+            {
+              "term": "brazilian",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 243,
+              "idf": 5.482307673242264,
+              "score": 0.004886428438213361
+            },
+            {
+              "term": "per",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 2115,
+              "idf": 3.3221931055572758,
+              "score": 0.0037657084231009393
+            },
+            {
+              "term": "april",
+              "query_tf": 4,
+              "document_tf": 1,
+              "df": 2899,
+              "idf": 3.0070098825609004,
+              "score": 0.0035079909054059246
+            },
+            {
+              "term": "prices",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 1735,
+              "idf": 3.5201370033151704,
+              "score": 0.003410975324732953
+            },
+            {
+              "term": "dlrs",
+              "query_tf": 14,
+              "document_tf": 1,
+              "df": 8112,
+              "idf": 1.9782529061404008,
+              "score": 0.002315353224273787
+            },
+            {
+              "term": "all",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2078,
+              "idf": 3.339833610677453,
+              "score": 0.0018134867835790114
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "article": {
+        "id": 2,
+        "title": "STANDARD OIL <SRD> TO FORM FINANCIAL UNIT",
+        "body": "Standard Oil Co and BP North America Inc said they plan to form a venture to manage the money market borrowing and investment activities of both companies. BP North America is a subsidiary of British Petroleum Co Plc <BP>, which also owns a 55 pct interest in Standard Oil. The venture will be called BP/Standard Financial Trading and will be operated by Standard Oil under the oversight of a joint management committee. Reuter"
+      },
+      "hits": [
+        {
+          "title": "BRITISH PETROLEUM COMPLETES STANDARD OIL MERGER",
+          "doc": 19810,
+          "score": 0.4469289670227171,
+          "terms": [
+            {
+              "term": "bp",
+              "query_tf": 4,
+              "document_tf": 7,
+              "df": 65,
+              "idf": 6.78982115650904,
+              "score": 0.1859991680164024
+            },
+            {
+              "term": "standard",
+              "query_tf": 5,
+              "document_tf": 3,
+              "df": 484,
+              "idf": 4.795327007597983,
+              "score": 0.07227139804206295
+            },
+            {
+              "term": "america",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 408,
+              "idf": 4.965760742492664,
+              "score": 0.04057063682933785
+            },
+            {
+              "term": "srd",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 28,
+              "idf": 7.612180068548992,
+              "score": 0.03325591687244925
+            },
+            {
+              "term": "oil",
+              "query_tf": 4,
+              "document_tf": 2,
+              "df": 1475,
+              "idf": 3.682384893375048,
+              "score": 0.03144328462283171
+            },
+            {
+              "term": "petroleum",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 486,
+              "idf": 4.791211775452876,
+              "score": 0.02230674827185086
+            },
+            {
+              "term": "british",
+              "query_tf": 1,
+              "document_tf": 2,
+              "df": 541,
+              "idf": 4.684209897095819,
+              "score": 0.02132152314610049
+            },
+            {
+              "term": "plc",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 638,
+              "idf": 4.519571444157931,
+              "score": 0.011723177257619736
+            },
+            {
+              "term": "subsidiary",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1042,
+              "idf": 4.029619443534694,
+              "score": 0.009319205455297953
+            },
+            {
+              "term": "co",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 3201,
+              "idf": 2.9079450049788056,
+              "score": 0.008217087455392872
+            },
+            {
+              "term": "pct",
+              "query_tf": 1,
+              "document_tf": 5,
+              "df": 6277,
+              "idf": 2.234669161133567,
+              "score": 0.00747866808566085
+            },
+            {
+              "term": "inc",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 5911,
+              "idf": 2.2947364359074283,
+              "score": 0.0030221529677101973
+            }
+          ]
+        },
+        {
+          "title": "BP <BP> STARTS BID FOR STANDARD OIL <SRD> SHARES",
+          "doc": 11872,
+          "score": 0.3925593587210886,
+          "terms": [
+            {
+              "term": "bp",
+              "query_tf": 4,
+              "document_tf": 3,
+              "df": 65,
+              "idf": 6.78982115650904,
+              "score": 0.1494657364844852
+            },
+            {
+              "term": "standard",
+              "query_tf": 5,
+              "document_tf": 4,
+              "df": 484,
+              "idf": 4.795327007597983,
+              "score": 0.09269924333512393
+            },
+            {
+              "term": "oil",
+              "query_tf": 4,
+              "document_tf": 3,
+              "df": 1475,
+              "idf": 3.682384893375048,
+              "score": 0.043962596703088865
+            },
+            {
+              "term": "srd",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 28,
+              "idf": 7.612180068548992,
+              "score": 0.037513436959481415
+            },
+            {
+              "term": "co",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 3201,
+              "idf": 2.9079450049788056,
+              "score": 0.01569388806994652
+            },
+            {
+              "term": "petroleum",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 486,
+              "idf": 4.791211775452876,
+              "score": 0.014861391819195841
+            },
+            {
+              "term": "british",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 541,
+              "idf": 4.684209897095819,
+              "score": 0.014205006744802485
+            },
+            {
+              "term": "plc",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 638,
+              "idf": 4.519571444157931,
+              "score": 0.013224012818689589
+            },
+            {
+              "term": "interest",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1863,
+              "idf": 3.4489959032899296,
+              "score": 0.00770112382851034
+            },
+            {
+              "term": "pct",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 6277,
+              "idf": 2.234669161133567,
+              "score": 0.0032329219577644807
+            }
+          ]
+        },
+        {
+          "title": "BP <BP> TO HOLD NEW YORK PRESS CONFERENCE",
+          "doc": 9850,
+          "score": 0.3917563066811102,
+          "terms": [
+            {
+              "term": "bp",
+              "query_tf": 4,
+              "document_tf": 2,
+              "df": 65,
+              "idf": 6.78982115650904,
+              "score": 0.16305092270465746
+            },
+            {
+              "term": "standard",
+              "query_tf": 5,
+              "document_tf": 1,
+              "df": 484,
+              "idf": 4.795327007597983,
+              "score": 0.052525632216710146
+            },
+            {
+              "term": "srd",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 28,
+              "idf": 7.612180068548992,
+              "score": 0.050723121247684896
+            },
+            {
+              "term": "oil",
+              "query_tf": 4,
+              "document_tf": 1,
+              "df": 1475,
+              "idf": 3.682384893375048,
+              "score": 0.02832502091791826
+            },
+            {
+              "term": "co",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 3201,
+              "idf": 2.9079450049788056,
+              "score": 0.021220209395350943
+            },
+            {
+              "term": "petroleum",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 486,
+              "idf": 4.791211775452876,
+              "score": 0.020094564514806425
+            },
+            {
+              "term": "british",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 541,
+              "idf": 4.684209897095819,
+              "score": 0.01920704520407022
+            },
+            {
+              "term": "plc",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 638,
+              "idf": 4.519571444157931,
+              "score": 0.017880611854035885
+            },
+            {
+              "term": "management",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1021,
+              "idf": 4.049959127771816,
+              "score": 0.014357841160180457
+            },
+            {
+              "term": "pct",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 6277,
+              "idf": 2.234669161133567,
+              "score": 0.004371337465695585
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "article": {
+        "id": 3,
+        "title": "TEXAS COMMERCE BANCSHARES <TCB> FILES PLAN",
+        "body": "Texas Commerce Bancshares Inc's Texas Commerce Bank-Houston said it filed an application with the Comptroller of the Currency in an effort to create the largest banking network in Harris County. The bank said the network would link 31 banks having 13.5 billion dlrs in assets and 7.5 billion dlrs in deposits. Reuter"
+      },
+      "hits": [
+        {
+          "title": "FED APPROVES CHEMICAL BANK ACQUISITION OF TEXAS COMMERCE BANCSHARES",
+          "doc": 9635,
+          "score": 0.3511090025692616,
+          "terms": [
+            {
+              "term": "bancshares",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 40,
+              "idf": 7.265903831831158,
+              "score": 0.15063734882306115
+            },
+            {
+              "term": "commerce",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 299,
+              "idf": 5.2756934238792645,
+              "score": 0.09843509690123399
+            },
+            {
+              "term": "texas",
+              "query_tf": 3,
+              "document_tf": 1,
+              "df": 409,
+              "idf": 4.9633187388371125,
+              "score": 0.08712347805785545
+            },
+            {
+              "term": "bank",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2994,
+              "idf": 2.974776387985916,
+              "score": 0.014913078787111029
+            }
+          ]
+        },
+        {
+          "title": "TEXAS CAPITAL BANCSHARES UNIT FIRST TO FILE",
+          "doc": 7981,
+          "score": 0.34810645466836176,
+          "terms": [
+            {
+              "term": "bancshares",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 40,
+              "idf": 7.265903831831158,
+              "score": 0.11593934399754659
+            },
+            {
+              "term": "texas",
+              "query_tf": 3,
+              "document_tf": 5,
+              "df": 409,
+              "idf": 4.9633187388371125,
+              "score": 0.10334408773224622
+            },
+            {
+              "term": "comptroller",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 14,
+              "idf": 8.271425697433255,
+              "score": 0.05241105115169881
+            },
+            {
+              "term": "county",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 144,
+              "idf": 6.002742156114891,
+              "score": 0.027603331569868807
+            },
+            {
+              "term": "filed",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 591,
+              "idf": 4.59596926365146,
+              "score": 0.01618140975756518
+            },
+            {
+              "term": "currency",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 768,
+              "idf": 4.334384929029822,
+              "score": 0.014391865100426565
+            },
+            {
+              "term": "banks",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 1226,
+              "idf": 3.867148453824554,
+              "score": 0.011456285099930706
+            },
+            {
+              "term": "bank",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2994,
+              "idf": 2.974776387985916,
+              "score": 0.006779080259078913
+            }
+          ]
+        },
+        {
+          "title": "FED APPROVES CHEMICAL NEW YORK <CHL> MERGER",
+          "doc": 9640,
+          "score": 0.3062589065940341,
+          "terms": [
+            {
+              "term": "bancshares",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 40,
+              "idf": 7.265903831831158,
+              "score": 0.1115544234167319
+            },
+            {
+              "term": "texas",
+              "query_tf": 3,
+              "document_tf": 2,
+              "df": 409,
+              "idf": 4.9633187388371125,
+              "score": 0.06451925393496084
+            },
+            {
+              "term": "tcb",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 5,
+              "idf": 9.187716429307411,
+              "score": 0.062220464172664185
+            },
+            {
+              "term": "create",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 150,
+              "idf": 5.962196061720541,
+              "score": 0.02620176746855312
+            },
+            {
+              "term": "billion",
+              "query_tf": 2,
+              "document_tf": 2,
+              "df": 3432,
+              "idf": 2.838286105077774,
+              "score": 0.017022362984655644
+            },
+            {
+              "term": "assets",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 833,
+              "idf": 4.2532424961767195,
+              "score": 0.013333936126141406
+            },
+            {
+              "term": "bank",
+              "query_tf": 1,
+              "document_tf": 1,
+              "df": 2994,
+              "idf": 2.974776387985916,
+              "score": 0.006522689912867719
+            },
+            {
+              "term": "dlrs",
+              "query_tf": 2,
+              "document_tf": 1,
+              "df": 8112,
+              "idf": 1.9782529061404008,
+              "score": 0.004884008577459279
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

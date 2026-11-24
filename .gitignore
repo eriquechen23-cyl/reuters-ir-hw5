@@ -1,0 +1,8 @@
+__pycache__/
+.deps/
+.venv/
+tmp/
+output/
+Homework-5-20261110-2.pdf
+reflection.md
+reuters21578.tar.gz
